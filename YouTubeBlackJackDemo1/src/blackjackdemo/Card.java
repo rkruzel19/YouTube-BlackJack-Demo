@@ -11,7 +11,7 @@ public class Card {
     }
 
     public String toString() {
-        return this.suit.toString() + "-" + this.value.toString();
+        return this.suit.toString() + " " + this.value.toString();
     }
 
     public Value getValue() {
